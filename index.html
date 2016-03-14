@@ -1,465 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>StarWars</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  </head>
-  <body>
-    <div class="container">
-      <div id="cabecalho" class="row">
+</head>
+<body>
+<div class="container">
+    <div id="cabecalho" class="row">
         <div class="panel panel-default">
-          <div class="panel-body">
-            <h2 class="text-center"><strong>Trabalho GIT</strong></h2>
-            <p>Disciplina: Estratégias e Ferramentas de Versionamento</p>
-            <p>Curso: Pós­Graduação em Desenvolvimento WEB, Cloud e Dispositivos Móveis</p>
-            <p>Professor: Cristiano Agosti</p>
-          </div>
+            <div class="panel-body">
+                <h2 class="text-center"><strong>Trabalho GIT</strong></h2>
+                <p>Disciplina: Estratégias e Ferramentas de Versionamento</p>
+                <p>Curso: Pós­Graduação em Desenvolvimento WEB, Cloud e Dispositivos Móveis</p>
+                <p>Professor: Cristiano Agosti</p>
+            </div>
         </div>
-      </div>
-    
-      <div id="st_1" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_30985_r_fc565022.jpeg?region=308%2C71%2C1056%2C593&width=768" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>TEEDO</strong></p>
-            <p class="text-justify">Teedo é um pequeno e brutal coletor de lixo que perambula pelo vasto deserto de Jakku em sua Luggabeast semi mecânica.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aprarições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: As Guerras Clônicas </td>
-                <td> - </td>
-                <td> Masculino </td>
-                <td> Altura: 1.92m </td>
-                <td> - </td>
-                <td> Caça Estelar Jedi </td>
-                <td> Sabre de luz, Mace Windu's Lightsaber </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-          
-      <div id="st_4" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/des0190_462d9660.jpeg" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>KYLO REN</strong></p>
-            <p class="text-justify">Um guerreiro do lado negro poderoso na Força, Kylo Ren comanda missões da Primeira Ordem com um temperamento tão ardente quanto seu Sabre de Luz pouco convencional.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aprarições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio VII O Despertar Da Força</td>
-                <td>Jakku</td>
-                <td>Feminino</td>
-                <td>Altura: 1.7m</td>
-                <td>Humana</td>
-                <td>Speeder da Rey</td>
-                <td>Sabre de luz, Pistola Blaster</td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      <div id="st_5" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_22591_r_8396f2d2.jpeg?region=0%2C217%2C1040%2C587&width=768" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>GENERAL HUX</strong></p>
-            <p class="text-justify">Um jovem e implacável oficial da Primeira Ordem, General Hux tem total confiança em suas tropas, métodos de treinamento e armas.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
-                <td> - </td>
-                <td> - </td>
-                <td> Comprimento: 8.99m </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
+    </div>
 
-      <div id="st_6" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/x551_tea0010_denoised3_16int_8a29e084.jpeg?region=268%2C0%2C1165%2C654&width=768" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>FINN</strong></p>
-            <p class="text-justify">Um guerreiro treinado desesperado para escapar de seu passado, Finn está mergulhado na aventura enquanto sua consciência o leva por um caminho heroico, mas perigoso.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>               
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      <div id="st_7" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_38369_0bbb2aae.jpeg?region=0%2C87%2C1560%2C879&width=768" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>CAPITÃ PHASMA</strong></p>
-            <p class="text-justify">Vestida com uma armadura metálica característica, Capitã Phasma comanda legiões de soldados da Primeira Ordem.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>							  
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio VII O Despertar Da Força</td>
-                <td>Primeira Ordem</td>
-                <td> - </td>
-                <td>Feminino</td>
-                <td>Altura: 2.0m</td>
-                <td> - </td>
-                <td>Espingarda Blaster</td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="st_16" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/Padme-Amidala_05d50c8a.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>PADMÉ AMIDALA</strong></p>
-            <p class="text-justify">Padmé Amidala é uma líder corajosa e cheia de esperanças, que serve como rainha e senadora de Naboo — e é também exímia no manuseio de uma blaster. Apesar de seus ideais e de tudo o que ela faz pela causa da paz, seu casamento secreto e proibido com o Jedi Anakin Skywalker traz consequências calamitosas à galáxia.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>               
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      <div id="st_18" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/Mace-Windu_b35242e5.jpeg" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>MACE WINDU</strong></p>
-            <p class="text-justify">Um Mestre Jedi sombrio que usa um sabre de luz ametista, Mace Windu era o campeão da Ordem Jedi, com pouca tolerância às falhas do Senado, aos argumentos dos políticos ou às opiniões dos rebeldes Jedi. Com a intensificação das Guerras Clônicas, Mace sente que o lado sombrio da Força está atuando, e sabe que os inimigos dos Jedi estão tramando para destruir a Ordem e acabar com sua liderança da galáxia.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aprarições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: As Guerras Clônicas </td>
-                <td> - </td>
-                <td> Masculino </td>
-                <td> Altura: 1.92m </td>
-                <td> - </td>
-                <td> Caça Estelar Jedi </td>
-                <td> Sabre de luz, Mace Windu's Lightsaber </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      <div id="st_19" class="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/Luke-Skywalker_dd9c9f9b.jpeg?region=0%2C0%2C1536%2C864" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>LUKE SKYWALKER</strong></p>
-            <p class="text-justify">Quando menino, Luke Skywalker vive em uma fazenda de Tatooine. De origem humilde, ele se torna um dos maiores Jedi que a galáxia já conheceu. Junto com seus amigos Han Solo e princesa Leia, Luke combate o perverso Império, descobre a verdade sobre seus pais e dá fim à tirania dos Sith.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>							  
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio III A Vingança dos Sith, Star Wars: Episódio VII O Despertar Da Força</td>
-                <td>Aliança Rebelde, Ordem Jedi</td>
-                <td>Tatooine, Polis Massa, Fazenda de Lars</td>
-                <td>Masculino</td>
-                <td>Altura: 1.72m</td>
-                <td>Caça Estelar X-Wing, Snowspeeder, Skyhopper T-16, Landspeeder X-34</td>
-                <td>Sabre de luz, Pistola Blaster, Luke Skywalker's Lightsaber (RotJ), Anakin/Luke's Lightsaber</td>
-                <td>Bacta Tank, Evaporador</td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      <div id="st_26" class="row">
+ <div id="st_1" class="row">
         <div class="panel panel-default">
           <div class="panel-body">
             <!--Título e Descrição-->
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <img src="http://img.lum.dolimg.com/v1/images/open-uri20150608-27674-eluj3k_b74fc27e.jpeg?region=0%2C0%2C800%2C450" class="img-responsive img-thumbnail">
+                <img src="http://img.lum.dolimg.com/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
               </div>
               <div class="col-xs-12 col-md-6">
-                <p><strong>HERA SYNDULLA</strong></p>
-                <p class="text-justify">Capitã e alma da tripulação do Fantasma, Hera Syndulla é uma talentosa aviadora e líder. Embora Hera seja uma comandante enérgica — e grande adepta de combates aéreos com caças TIE —, ela é também calorosa e protetora. A twi'lek consegue extrair o máximo de sua equipe, formada por diferentes personalidades, fazendo todos acreditarem em si mesmos, nos outros e em sua luta contra o Império.</p>
+                <p><strong>YODA</strong></p>
+                <p class="text-justify">Yoda é um lendário Mestre Jedi e mais forte que a maioria em relação à sua conexão com a Força. Pequeno em tamanho, mas sábio e poderoso, ele treina os Jedi por mais de 800 anos, desempenhando papéis integrais nas Guerras Clônicas, no treinamento de Luke Skywalker e desvendando o caminho para a imortalidade.</p>
               </div>
             </div>
-            
+
             <!--Força um espaço entre a imagem e a tabela-->
             <div class="help-block"></div>
-            
+
             <!--Tabela com as informações secundárias -->
             <div class="row">
               <div class="col-xs-12">
                 <table class="table table-bordered table-striped table-hover">
                   <thead>
                     <tr>
-                      <th>Aprarições</th>
+                      <th>Aparições</th>
                       <th>Locais</th>
                       <th>Genero</th>
                       <th>Dimensões</th>
@@ -471,13 +56,13 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td> - </td>
-                      <td> - </td>
-                      <td> - </td>
-                      <td> - </td>
-                      <td> - </td>
-                      <td> - </td>
-                      <td> - </td>
+                      <td>  Star Wars: Episódio V O Império Contra-Ataca,Star Wars: Episódio VI O Retorno de Jedi,Star Wars: Episódio I A Ameaça Fantasma,Star Wars: Episódio II Ataque dos lones,Star Wars: Episódio III A Vingança dos Sith,Star Wars Rebels,Star Wars: As Guerras Clônicas</td>
+                      <td> Yoda's Hut </td>
+                      <td> Masculino </td>
+                      <td> Altura: 0.66m  </td>
+                      <td> Desconhecido </td>
+                      <td> Caça de Yoda </td>
+                      <td>  Sabre de luz,Yoda's Lightsaber </td>
                       <td> - </td>
                     </tr>
                   </tbody>
@@ -487,371 +72,2688 @@
           </div>
         </div>
       </div>
-      
-      <div id="st_27" class="row">
+
+      <div id="st_1" class="row">
         <div class="panel panel-default">
           <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/Han-Solo_1d08eb2e.jpeg?region=0%2C1%2C1600%2C900&width=768" class="img-responsive img-thumbnail">
+            <!--Título e Descrição-->
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <img src="http://img.lum.dolimg.com/v1/images/Emperor-Palpatine_7ac4a10e.jpeg?region=0%2C0%2C1600%2C900&width=768" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p><strong>IMPERADOR PALPATINE / DARTH SIDIOUS </strong></p>
+                <p class="text-justify">Calculista, poderoso e profundamente perverso, Darth Sidious reabilita os Sith e destrói a Ordem Jedi. Levando uma vida dupla, Sidious é na verdade Palpatine, um senador de Naboo e uma ameaça fantasma. Ele manipula vagarosamente o sistema político da República Galáctica, até ser nomeado Supremo Chanceler, e mais tarde Imperador, governando a galáxia por meio de medo e tirania.</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>HAN SOLO</strong></p>
-            <p class="text-justify">Contrabandista. Ordinário. Herói. Han Solo, Capitão da Millennium Falcon, é um dos grandes líderes da Aliança Rebelde. Ele e seu copiloto Chewbacca passam a acreditar na causa da liberdade galáctica, juntando-se a Luke Skywalker e à princesa Leia Organa na luta contra o Império.</p>
+
+            <!--Força um espaço entre a imagem e a tabela-->
+            <div class="help-block"></div>
+
+            <!--Tabela com as informações secundárias -->
+            <div class="row">
+              <div class="col-xs-12">
+                <table class="table table-bordered table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>Aparições</th>
+                      <th>Locais</th>
+                      <th>Genero</th>
+                      <th>Dimensões</th>
+                      <th>Especie</th>
+                      <th>Veículos</th>
+                      <th>Armas</th>
+                      <th>Ferramentas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>  Star Wars: Episódio V O Império Contra-Ataca,Star Wars: Episódio VI O Retorno de Jedi,Star Wars: Episódio I A Ameaça Fantasma,Star Wars: Episódio II Ataque dos Clones,Star Wars: Episódio III A Vingança dos Sith,Star Wars Rebels,Star Wars: As Guerras Clônicas</td>
+                      <td>  Naboo,Estrela da Morte II </td>
+                      <td> - </td>
+                      <td> Altura: 1.73m  </td>
+                      <td> Humana </td>
+                      <td> - </td>
+                      <td> Palpatine's lightsaber </td>
+                      <td> - </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio VII O Despertar Da Força</td>
-                <td> Corellia, Espaçoporto de Mos Eisley </td>
-                <td> Masculino </td>
-                <td> Altura: 1.8m </td>
-                <td> - </td>
-                <td> Millennium, Falcon </td>
-                <td> Pistola Blaster </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      
-      <div id="st_40" class="row">
+
+      <div id="st_1" class="row">
         <div class="panel panel-default">
           <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/mr0170_a69c0abe.jpeg" class="img-responsive img-thumbnail">
+            <!--Título e Descrição-->
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <img src="http://img.lum.dolimg.com/v1/images/chopper-databank_916fc2ff.jpeg?region=0%2C0%2C1920%2C1080&width=768" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p><strong>CHOPPER (C1­10P)</strong></p>
+                <p class="text-justify">Chopper é o droide residente do Fantasma, auxiliando a equipe em tudo, desde a manutenção da nave até o combate, embora ele nem sempre o queira. Após muitos anos de reparos e remendos, Chopper tem um aspecto desgastado que combina com sua personalidade às vezes mal-humorada. Estética à parte, ele é uma peça essencial dessa pequena equipe rebelde e, em última análise, é leal e heroico.</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>JAKKU</strong></p>
-            <p class="text-justify">Um mundo de fronteira do deserto, Jakku é a casa de ladrões, bandidos e coletores de lixo.</p>
+
+            <!--Força um espaço entre a imagem e a tabela-->
+            <div class="help-block"></div>
+
+            <!--Tabela com as informações secundárias -->
+            <div class="row">
+              <div class="col-xs-12">
+                <table class="table table-bordered table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>Aparições</th>
+                      <th>Locais</th>
+                      <th>Genero</th>
+                      <th>Dimensões</th>
+                      <th>Especie</th>
+                      <th>Veículos</th>
+                      <th>Armas</th>
+                      <th>Ferramentas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>  Star Wars Rebels</td>
+                      <td> - </td>
+                      <td> - </td>
+                      <td> - </td>
+                      <td> Droide Astromecânico </td>
+                      <td> - </td>
+                      <td> - </td>
+                      <td> Sabacc </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aprarições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio VII O Despertar Da Força </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> LUGGABEAST </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      
-      <div id="st_41" class="row">
+
+      <div id="st_1" class="row">
         <div class="panel panel-default">
           <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="" class="img-responsive img-thumbnail">
+            <!--Título e Descrição-->
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <img src="http://img.lum.dolimg.com/v1/images/Clone-Troopers_76eb5caf.jpeg?region=0%2C0%2C2048%2C1152&width=768" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p><strong>SOLDADOS CLONES </strong></p>
+                <p class="text-justify">Na época em que são apresentados, os soldados clones da República representam o futuro da guerra galáctica. Muito superiores aos droides de combate, os soldados clones são a espinha dorsal das novas forças armadas da República que conduzem a guerra contra as forças da Confederação de Sistemas Independentes. Eles são um símbolo tão forte dessa época que o nome do conflito galáctico que os viu surgir é extraído de suas fileiras: as Guerras Clônicas.</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong></strong></p>
-            <p class="text-justify"></p>
+
+            <!--Força um espaço entre a imagem e a tabela-->
+            <div class="help-block"></div>
+
+            <!--Tabela com as informações secundárias -->
+            <div class="row">
+              <div class="col-xs-12">
+                <table class="table table-bordered table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>Aparições</th>
+                      <th>Locais</th>
+                      <th>Genero</th>
+                      <th>Dimensões</th>
+                      <th>Especie</th>
+                      <th>Veículos</th>
+                      <th>Armas</th>
+                      <th>Ferramentas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> Star Wars: Episódio II Ataque dos Clones,Star Wars: Episódio III A Vingança dos Sith,Star Wars Rebels,Star Wars: As Guerras Clônicas</td>
+                      <td> - </td>
+                      <td> - </td>
+                      <td> Altura: 1.83m  </td>
+                      <td> - </td>
+                      <td> Walker AT-TE,Walker AT-RT,Nave Bélica Republicana,V-19 Torrent,AV-7 Anti-vehicle Artillery Cannon </td>
+                      <td> Pistola Blaster,Espingarda Blaster</td>
+                      <td> SClone Trooper Armor</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas</td>
-                <td>Figrin D'an and the Modal Nodes, Incursores Tusken, Pilotos de Pod Clássico de Boonta Eve, Clã Hutt</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>Skyhopper T-16, Sandcrawler, Pod de corrida de Anakin Skywalker, Skiff do Deserto	</td>
-                <td>Bastão Gaffi</td>
-                <td>Evaporador</td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      
-      <div id="st_48" class="row">
+
+        <div id="st_1" class="row">
         <div class="panel panel-default">
           <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_162325_j_ce453719.jpeg" class="img-responsive img-thumbnail">
+            <!--Título e Descrição-->
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <img src="http://img.lum.dolimg.com/v1/images/Sabine-Retina_3322c32b.jpeg?region=35%2C21%2C1165%2C654&width=768" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p><strong>SABINE WREN</strong></p>
+                <p class="text-justify">Sabine Wren é uma guerreira mandaloriana, especialista em explosivos e uma artista de grafites — qualidades úteis para uma das primeiras rebeldes contra o Império. Parte da tripulação do Fantasma, Sabine usa seu talento para produzir bombas e causar um grande impacto contra o Império, além de frequentemente deixar sua marca através de tintas e sprays. Sua clássica armadura mandaloriana destaca-se ao incorporar seus próprios estilos customizados, refletindo seu espírito criativo e rebelde.</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>STORMTROOPERS DA PRIMEIRA ORDEM</strong></p>
-            <p class="text-justify">Equipados com uma armadura elegante e armas poderosas, os Stormtroopers impõem a vontade da Primeira Ordem.</p>
+
+            <!--Força um espaço entre a imagem e a tabela-->
+            <div class="help-block"></div>
+
+            <!--Tabela com as informações secundárias -->
+            <div class="row">
+              <div class="col-xs-12">
+                <table class="table table-bordered table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>Aparições</th>
+                      <th>Locais</th>
+                      <th>Genero</th>
+                      <th>Dimensões</th>
+                      <th>Especie</th>
+                      <th>Veículos</th>
+                      <th>Armas</th>
+                      <th>Ferramentas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> Star Wars Rebels</td>
+                      <td> Mandalore </td>
+                      <td> Feminino </td>
+                      <td> Altura: 0.66m  </td>
+                      <td> Humana </td>
+                      <td> Jumpspeeder </td>
+                      <td>   Pistola Blaster,Bomba de Fumaça </td>
+                      <td> - </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>							  
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      
-      <div id="st_49" class="row">
+
+
+    <div id="st_1" class="row">
         <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/Stormtroopers_f36ff76a.jpeg?region=1%2C0%2C1534%2C863&width=768" class="img-responsive img-thumbnail">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_30985_r_fc565022.jpeg?region=308%2C71%2C1056%2C593&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>TEEDO</strong></p>
+                        <p class="text-justify">Teedo é um pequeno e brutal coletor de lixo que perambula pelo vasto deserto de Jakku em sua Luggabeast semi mecânica.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: As Guerras Clônicas </td>
+                                <td> - </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.92m </td>
+                                <td> - </td>
+                                <td> Caça Estelar Jedi </td>
+                                <td> Sabre de luz, Mace Windu's Lightsaber </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>STORMTROOPERS</strong></p>
-            <p class="text-justify">Os Stormtroopers são soldados de elite fanaticamente leais ao Império e sem possibilidade de trair a causa imperial. Eles usam uma imponente armadura branca, que oferece uma ampla gama de equipamentos de sobrevivência e controles de temperatura para permitir que os soldados sobrevivam em praticamente qualquer ambiente. Os stormtroopers utilizam rifles e pistolas blaster com grande habilidade, e atacam em hordas para subjugar seus inimigos. Além dos stormtroopers padrão, o Império organiza várias unidades especializadas, incluindo snowtroopers e batedores imperiais.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi,  Star Wars Rebels </td>
-                <td> - </td>
-                <td> - </td>
-                <td> Altura: 1.83m (average) </td>
-                <td> - </td>
-                <td> - </td>
-                <td> Pistola Blaster, Espingarda Blaster </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
         </div>
-      </div>
-      
-      <div id="st_62" class="row">
+    </div>
+
+    <div id="st_3" class="row">
         <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="http://img.lum.dolimg.com/v1/images/TIE-Fighter_25397c64.jpeg" class="img-responsive img-thumbnail">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_162336_f9e4b6c0.jpeg?region=199%2C0%2C1163%2C654&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>POE DAMERON</strong></p>
+                        <p class="text-justify">
+                            Um piloto ás, Poe Dameron é um líder na luta da resistência contra a maléfica Primeira Ordem. Ele decola para a batalha atrás dos controles de um moderno caça X-wing.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td> - </td>
+                                <td>Masculino</td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td>X-wing da Resistência</td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong>CAÇA TIE</strong></p>
-            <p class="text-justify">O caça TIE é o símbolo inesquecível da frota imperial. Transportados a bordo de Star Destroyers e estações de batalha, os caças TIE eram conduzidos por um piloto e foram projetados para combates rápidos com os X-wings dos rebeldes e outros caças estelares. O icônico caça TIE levou a outros modelos na família TIE, incluindo o interceptor TIE, em forma de punhal, e o bombardeiro TIE carregado de explosivos. O ruído aterrorizante dos motores de um TIE amedrontam os corações de todos os inimigos do Império.</p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aprarições</th>
-                <th>Locais</th>
-                <th>Genero</th>
-                <th>Dimensões</th>
-                <th>Especie</th>
-                <th>Veículos</th>
-                <th>Armas</th>
-                <th>Ferramentas</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td> Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio IV Uma Nova Esperança,  Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
-                <td> - </td>
-                <td> - </td>
-                <td> Comprimento: 8.99m </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
         </div>
-      </div>
-      
-      <div id="st_63" class="row">
+    </div>
+
+    <div id="st_4" class="row">
         <div class="panel panel-default">
-          <div class="panel-body">
-          <!--Título e Descrição-->
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-            <img src="" class="img-responsive img-thumbnail">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/des0190_462d9660.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>KYLO REN</strong></p>
+                        <p class="text-justify">Um guerreiro do lado negro poderoso na Força, Kylo Ren comanda missões da Primeira Ordem com um temperamento tão ardente quanto seu Sabre de Luz pouco convencional.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Jakku</td>
+                                <td>Feminino</td>
+                                <td>Altura: 1.7m</td>
+                                <td>Humana</td>
+                                <td>Speeder da Rey</td>
+                                <td>Sabre de luz, Pistola Blaster</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-6">
-            <p><strong></strong></p>
-            <p class="text-justify"></p>
-            </div>
-          </div>
-          
-          <!--Força um espaço entre a imagem e a tabela-->
-          <div class="help-block"></div>
-          
-          <!--Tabela com as informações secundárias -->
-          <div class="row">
-            <div class="col-xs-12">
-            <table class="table table-bordered table-striped table-hover">
-              <thead>
-              <tr>
-                <th>Aparições</th>
-                <th>Afiliações</th>
-                <th>Locais</th>
-                <th>Gênero</th>
-                <th>Dimensões</th>
-                <th>Veículos</th>							  
-                <th>Armas</th>
-                <th>Ferramenta</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio III A Vingança dos Sith	</td>
-                <td>Aliança Rebelde</td>
-                <td>Corellia</td>
-                <td> - </td>
-                <td>Comprimento: 34.75m</td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-          </div>
-          </div>
         </div>
-      </div>
-      
-    </div> <!-- FIM DA DIV CONTAINER -->
-  </body>
+    </div>
+
+    <div id="st_5" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_22591_r_8396f2d2.jpeg?region=0%2C217%2C1040%2C587&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>GENERAL HUX</strong></p>
+                        <p class="text-justify">Um jovem e implacável oficial da Primeira Ordem, General Hux tem total confiança em suas tropas, métodos de treinamento e armas.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Comprimento: 8.99m </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_6" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/x551_tea0010_denoised3_16int_8a29e084.jpeg?region=268%2C0%2C1165%2C654&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>FINN</strong></p>
+                        <p class="text-justify">Um guerreiro treinado desesperado para escapar de seu passado, Finn está mergulhado na aventura enquanto sua consciência o leva por um caminho heroico, mas perigoso.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_7" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_38369_0bbb2aae.jpeg?region=0%2C87%2C1560%2C879&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>CAPITÃ PHASMA</strong></p>
+                        <p class="text-justify">Vestida com uma armadura metálica característica, Capitã Phasma comanda legiões de soldados da Primeira Ordem.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Primeira Ordem</td>
+                                <td> - </td>
+                                <td>Feminino</td>
+                                <td>Altura: 2.0m</td>
+                                <td> - </td>
+                                <td>Espingarda Blaster</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_9" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src=" ">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong></strong></p>
+                        <p class="text-justify"></p>
+                    </div>
+                </div>
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio V O Império Contra-Ataca,<br> Star Wars: Episódio IV Uma Nova Esperança, <br>Star Wars: Episódio III A Vingança dos Sith, <br>Star Wars: Episódio VII O Despertar Da Força,<br> Star Wars: Episódio VI O Retorno de Jedi,<br> Star Wars: As Guerras Clônicas
+ </td>
+                                <td>Aliança <br>Rebelde</td>
+                                <td> Kashyyyk</td>
+                                <td> Masculino </td>
+                                <td>Altura: 2.28m</td>
+                                <td> Millenniumbr <br> Falcon </td>
+                                <td>Balestra Wookiee </td>
+                                <td> -</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_10" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Zeb-Retina_7e82e1c0.jpeg?region=135%2C25%2C828%2C465&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>GARAZEB "ZEB" ORRELIOS</strong></p>
+                        <p class="text-justify">O desajeitado Zeb Orrelios serve ao grupo rebelde de Hera Syndulla como uma equipe de demolidores de um Lasat, esmagando alegremente os cabeças de lata e qualquer um que ameasse seus amigos. Mas a conduta alegre de Zeb esconde um passado doloroso: o Império subjugou brutalmente sua terra natal de Lasan, deixando Zeb como um dos poucos sobreviventes de sua espécie.</p>
+                    </div>
+                </div>
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars Rebels </td>
+                                <td>-</td>
+                                <td> - </td>
+                                <td> Masculino </td>
+                                <td>-</td>
+                                <td> - </td>
+                                <td> Bo-Rifle AB-75 da Guarda de Honra de Lasan </td>
+                                <td> Sabacc </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_13" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/R2-D2_41dacaa9.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>R2­D2 </strong></p>
+                        <p class="text-justify">O útil droide astromecânico, R2-D2, serve Padmé Amidala, Anakin Skywalker e depois Luke Skywalker, mostrando grande bravura ao resgatar seus mestres e amigos de muitos perigos. Um habilidoso assistente de piloto e mecânico de espaçonave, ele forma uma improvável, porém duradoura, amizade com o atrapalhado droide de protocolo C-3PO.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    Star Wars: Episódio IV Uma Nova Esperança,<br>
+                                    Star Wars: Episódio V O Império Contra-Ataca,<br>
+                                    Star Wars: Episódio VI O Retorno de Jedi, <br>
+                                    Star Wars: Episódio I A Ameaça Fantasma, <br>
+                                    Star Wars: Episódio II Ataque dos Clones, <br>
+                                    Star Wars: Episódio III A Vingança dos Sith,<br>
+                                    Star Wars Rebels,<br>
+                                    Star Wars: As Guerras Clônicas
+                                </td>
+                                <td>
+                                    Aliança Rebelde, <br>
+                                    República Galáctica
+                                </td>
+                                <td>
+                                    Naboo,<br>Havoc Outpost
+                                </td>
+                                <td>-</td>
+                                <td>
+                                    Altura: 1.09m
+                                </td>
+                                <td>
+                                    Caça Estelar X-Wing, <br>
+                                    Caça Estelar Jedi
+                                </td>
+                                <td> - </td>
+                                <td> Restraining Bolt </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_14" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Qui-Gon-Jinn_d89416e8.jpeg?region=0%2C1%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>QUI-GON JINN</strong></p>
+                        <p class="text-justify">Um venerável Mestre Jedi dissidente, Qui-Gon Jinn foi um pupilo da Força Viva. Qui-Gon vivia para o momento, adotando uma filosofia de "sinta, não pense — use seus instintos". Em Tatooine, Qui-Gon descobre um jovem escravo chamado Anakin Skywalker, que tem o dom da Força. Sentindo o potencial do garoto, Qui-Gon liberta Anakin da escravidão. O Mestre Jedi apresenta Anakin ao Conselho Jedi, mas eles o consideram velho demais para começar o treinamento e perigosamente cheio de medo e raiva. Eles se recusam a permitir que Qui-Gon treine Anakin, mas revogam essa decisão para atender ao último desejo de Qui-Gon.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio I A Ameaça Fantasma, Star Wars: As Guerras Clônicas</td>
+                                <td>Ordem Jedi</td>
+                                <td></td>
+                                <td>Masculino</td>
+                                <td>Altura: 1.93m</td>
+                                <td></td>
+                                <td>Sabre de luz, Qui-Gon's lightsaber</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_15" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Princess-Leia-Organa_d7761ff5.jpeg?region=0%2C0%2C1600%2C900&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>PRINCESA LEIA ORGANA</strong></p>
+                        <p class="text-justify">A princesa Leia Organa é uma das maiores líderes da Aliança Rebelde, destemida no campo de batalha e dedicada a acabar com a tirania do Império. Filha de Padmé Amidala e Anakin Skywalker, irmã de Luke Skywalker e com um fraco por canalhas, Leia figura entre os maiores heróis da galáxia.</p>
+                    </div>
+                </div>
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança,Star Wars: Episódio V O Império Contra-Ataca,Star Wars: Episódio VI O Retorno de Jedi,Star Wars: Episódio III A Vingança dos Sith,Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Aliança Rebelde,Senado Galáctico,Resistência,Alderaan Royal Family</td>
+                                <td>Alderaan,Polis Massa</td>
+                                <td>Feminino</td>
+                                <td>Altura: 1.5m</td>
+                                <td>Tantive IV</td>
+                                <td>Pistola Blaster</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_16" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Padme-Amidala_05d50c8a.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>PADMÉ AMIDALA</strong></p>
+                        <p class="text-justify">Padmé Amidala é uma líder corajosa e cheia de esperanças, que serve como rainha e senadora de Naboo — e é também exímia no manuseio de uma blaster. Apesar de seus ideais e de tudo o que ela faz pela causa da paz, seu casamento secreto e proibido com o Jedi Anakin Skywalker traz consequências calamitosas à galáxia.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas</td>
+                                <td>República Galáctica, Senado Galáctico</td>
+                                <td>Naboo</td>
+                                <td>Feminino</td>
+                                <td>Altura: 1.65m</td>
+                                <td>Nave Espacial Real de Naboo, Caça Estelar N-1 de Naboo, Naboo Royal Cruiser</td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_18" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Mace-Windu_b35242e5.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>MACE WINDU</strong></p>
+                        <p class="text-justify">Um Mestre Jedi sombrio que usa um sabre de luz ametista, Mace Windu era o campeão da Ordem Jedi, com pouca tolerância às falhas do Senado, aos argumentos dos políticos ou às opiniões dos rebeldes Jedi. Com a intensificação das Guerras Clônicas, Mace sente que o lado sombrio da Força está atuando, e sabe que os inimigos dos Jedi estão tramando para destruir a Ordem e acabar com sua liderança da galáxia.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: As Guerras Clônicas </td>
+                                <td> - </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.92m </td>
+                                <td> - </td>
+                                <td> Caça Estelar Jedi </td>
+                                <td> Sabre de luz, Mace Windu's Lightsaber </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_19" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Luke-Skywalker_dd9c9f9b.jpeg?region=0%2C0%2C1536%2C864" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>LUKE SKYWALKER</strong></p>
+                        <p class="text-justify">Quando menino, Luke Skywalker vive em uma fazenda de Tatooine. De origem humilde, ele se torna um dos maiores Jedi que a galáxia já conheceu. Junto com seus amigos Han Solo e princesa Leia, Luke combate o perverso Império, descobre a verdade sobre seus pais e dá fim à tirania dos Sith.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio III A Vingança dos Sith, Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Aliança Rebelde, Ordem Jedi</td>
+                                <td>Tatooine, Polis Massa, Fazenda de Lars</td>
+                                <td>Masculino</td>
+                                <td>Altura: 1.72m</td>
+                                <td>Caça Estelar X-Wing, Snowspeeder, Skyhopper T-16, Landspeeder X-34</td>
+                                <td>Sabre de luz, Pistola Blaster, Luke Skywalker's Lightsaber (RotJ), Anakin/Luke's Lightsaber</td>
+                                <td>Bacta Tank, Evaporador</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_20" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Lando-Calrissian_a679fe1e.jpeg?region=1%2C0%2C1598%2C899&width=600" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>LANDO CALRISSIAN</strong></p>
+                        <p class="text-justify">Antes um contrabandista de fala mansa, Lando Calrissian se transforma de alguém que quer enriquecer rápido em um líder implacável na luta contra o Império. Das aventuras com a tripulação de rebeldes do Fantasma ao ataque na Estrela da Morte II, sua sagacidade e ousadia provam ser de valor inestimável.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
+                                <td>Cidade das Nuvens</td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.78m </td>
+                                <td> Humana </td>
+                                <td> Millennium Falcon </td>
+                                <td> Pistola Blaster </td>
+                                <td> Sabacc, Transponders, Shield Generators </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_21" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Kanan-Jarrus_30dc50dd.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>KANAN JARRUS</strong></p>
+                        <p class="text-justify">Nem todos os Jedi perecem na Ordem 66. Kanan Jarrus sobrevive ao expurgo do Imperador, vivendo por anos no subterrâneo e escondendo a verdade sobre quem ele realmente é. Para manter o segredo sobre seu passado, Kanan carrega um blaster — prática incomum para um Jedi — e usa um sabre de luz que tem de ser montado. Ele é um dos líderes da tripulação do Fantasma, um pequeno grupo de rebeldes que tenta resistir ao império. Com o surgimento de Ezra, que é sensível à Força, ele adota novamente sua identidade como cavaleiro Jedi.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars Rebels</td>
+                                <td>-</td>
+                                <td>Masculino</td>
+                                <td>-</td>
+                                <td>Humana</td>
+                                <td>Speeder Bike do Kanan</td>
+                                <td>Pistola Blaster, Sabre de Luz de Kanan</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_22" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/databank_jarjarbinks_01_169_c70767ab.jpeg?region=0%2C0%2C1560%2C878&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>JAR JAR BINKS</strong></p>
+                        <p class="text-justify">Um exilado desajeitado e bem intencionado de Gungan em Naboo, Jar Jar Binks luta para provar seu valor a vida toda. Ao deixar para trás seu passado incômodo, Jar Jar sai dos pântanos de Naboo para entrar nas águas ainda mais obscuras da política de Coruscant, tornando-se um representante de seu povo na capital galáctica. Lá, suas melhores intenções e a disposição para servir são exploradas pelos Senadores calculistas e outros ocupantes de posições de poder.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas </td>
+                                <td> Naboo </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.96m </td>
+                                <td> Gungan </td>
+                                <td> Submarino Bongo de Gungan </td>
+                                <td> Bastão de energia, Energy Ball (Booma) </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_23" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/databank_jangofett_01_169_884cefab.jpeg?region=0%2C0%2C1560%2C878&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>JANGO FETT</strong></p>
+                        <p class="text-justify">Nos últimos anos da República, Jango Fett é considerado o melhor caçador de recompensas na galáxia. Habilidoso como atirador e em combate desarmado, Fett usa uma armadura lustrosa que esconde as cicatrizes do seu rosto. Seu equipamento de combate inclui um arsenal com lâminas de pulso retráteis, uma rede, pistolas blaster duplas e outras ferramentas mais exóticas. Em combate, Jango usa sua mochila propulsora para tirar proveito da velocidade e da altura sobre seus inimigos. A mochila carrega uma surpresa perversa: a possibilidade de lançar um foguete explosivo. Para viagens interestelares, Jango usa sua espaçonave Escravo I.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Armas</th>
+                                <th>Veículos</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio II Ataque dos Clones </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.83m </td>
+                                <td> Espingarda Blaster, Lança-chamas, Z-6 Jetpack </td>
+                                <td> Escravo I </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="st_25" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/The-Inquisitor_38078668.jpeg?region=0%2C0%2C1920%2C1080&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>O INQUISIDOR</strong></p>
+                        <p class="text-justify">Não se sabe muito sobre o Inquisidor do Império. Um Pau’an masculino, ele recebe a tarefa de Darth Vader de caçar todos os cavaleiros Jedi vivos. O Inquisidor é uma figura intimidante, vestido todo em preto e empunhando um sabre de luz duplo vermelho. Depois de vários encontros com Kanan Jarrus e seu Padawan Ezra Bridger, o Inquisidor morre em um duelo de sabres de luz com Kanan, mas avisa ao ladino Jedi que sua vitória causará algo terrível.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Espécie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars Rebels</td>
+                                <td>Utapau, Stygeon Prime, Espiral</td>
+                                <td>Masculino</td>
+                                <td>Pau'an</td>
+                                <td>Protótipo TIE Avançado do Inquisidor</td>
+                                <td>O Sabre de Luz do Inquisidor</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_26" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/open-uri20150608-27674-eluj3k_b74fc27e.jpeg?region=0%2C0%2C800%2C450" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>HERA SYNDULLA</strong></p>
+                        <p class="text-justify">Capitã e alma da tripulação do Fantasma, Hera Syndulla é uma talentosa aviadora e líder. Embora Hera seja uma comandante enérgica — e grande adepta de combates aéreos com caças TIE —, ela é também calorosa e protetora. A twi'lek consegue extrair o máximo de sua equipe, formada por diferentes personalidades, fazendo todos acreditarem em si mesmos, nos outros e em sua luta contra o Império.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_27" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Han-Solo_1d08eb2e.jpeg?region=0%2C1%2C1600%2C900&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>HAN SOLO</strong></p>
+                        <p class="text-justify">Contrabandista. Ordinário. Herói. Han Solo, Capitão da Millennium Falcon, é um dos grandes líderes da Aliança Rebelde. Ele e seu copiloto Chewbacca passam a acreditar na causa da liberdade galáctica, juntando-se a Luke Skywalker e à princesa Leia Organa na luta contra o Império.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td> Corellia, Espaçoporto de Mos Eisley </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.8m </td>
+                                <td> - </td>
+                                <td> Millennium, Falcon </td>
+                                <td> Pistola Blaster </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_29" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Ezra-Bridger_acfb45f6.jpeg?region=0%2C0%2C1920%2C1080&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>EZRA BRIDGER</strong></p>
+                        <p class="text-justify">Crescendo por conta própria durante a era do Império, Ezra Bridger confia em sua experiência nas ruas, e nas habilidades subconscientes da Força, para sobreviver. Ele vive de pequenos golpes e roubos, fazendo o que é preciso para ir levando a vida em seu planeta natal Lothal. Mas essa realidade também endurece Ezra, que aos 14 anos confia muito pouco nas pessoas. Isso muda quando ele é apresentado à equipe do Fantasma, um pequeno bando de rebeldes que luta contra o Império. Ezra passa a acreditar na causa deles e vê que pode ajudar a fazer da galáxia um lugar melhor. E, com a ajuda de Kanan Jarrus, ele começa a aprender os caminhos dos Jedi.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars Rebels</td>
+                                <td> - </td>
+                                <td>Capital de Lothal, Prédio do Senado da Velha República em Lothal</td>
+                                <td>Masculino</td>
+                                <td> - </td>
+                                <td>Ezra's Speeder Bike</td>
+                                <td>Sabre de Luz do Ezra</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="st_31" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src=" ">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong> </strong></p>
+                        <p class="text-justify"> </p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio I A Ameaça Fantasma, <br> Star Wars: As Guerras Clônicas</td>
+                                <td> Sith</td>
+                                <td>Dathomir</td>
+                                <td>Masculino</td>
+                                <td> Altura: 1.75m</td>
+                                <td>Intruso Sith, Speeder de Sith</td>
+                                <td>Darth Maul's Lightsaber</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_32" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Count-Dooku_4f552149.jpeg?region=0%2C0%2C1436%2C808&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>CONDE DOOKAN </strong></p>
+                        <p class="text-justify">O Conde Dookan é um ameaçador Lorde Sith e figura central nas Guerras Clônicas. Antes Jedi, treinado por Yoda, ele se desilude com a Ordem Jedi e cobiça um poder ainda maior. Voluntariamente, Dookan deixa para trás o lado bom e se torna discípulo de Darth Sidious no lado sombrio, recebendo o nome secreto de Darth Tyranus e liderando o exército separatista. </p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>  Star Wars: Episódio II Ataque dos Clones Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas</td>
+                                <td> Serenno </td>
+                                <td> Masculino </td>
+                                <td> Altura: 1.93m </td>
+                                <td> - </td>
+                                <td>  Navegador Solar Geonosiano, Count Dooku's Speeder </td>
+                                <td> Sabre de luz </td>
+                                <td> The Box </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_35" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/C-3PO-See-Threepio_68fe125c.jpeg?region=0%2C1%2C1408%2C792&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>C-3PO</strong></p>
+                        <p class="text-justify">C-3PO é um droide programado para trabalhar com etiqueta e protocolo, criado pelo heroico Jedi Anakin Skywalker, e companheiro constante do astromecânico R2-D2. Ano após ano, ele se envolve em alguns dos momentos mais decisivos e nas batalhas mais eletrizantes da galáxia, e é fluente em mais de seis milhões de formas de comunicação.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: Episódio VII O Despertar Da Força, Star Wars Rebels,  Star Wars: As Guerras Clônicas</td>
+                                <td> Tatooine </td>
+                                <td>  </td>
+                                <td>  </td>
+                                <td> - </td>
+                                <td>  </td>
+                                <td> </td>
+                                <td> Restraining Bolt</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_36" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Boba-Fett_61fdadfd.jpeg?region=0%2C0%2C1200%2C675&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>BOBA FETT </strong></p>
+                        <p class="text-justify">Com sua armadura mandaloriana personalizada, armamento mortal e poucas palavras, Boba Fett é um dos mais temidos caçadores de recompensas da galáxia. Clone genético de seu pai, o caçador de recompensas Jango Fett, Boba aprende artes marciais e de combate desde pequeno. Ao longo da sua carreira, que inclui contratos com o Império e com o submundo do crime, ele se torna uma lenda.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio II Ataque dos Clones, Star Wars: As Guerras Clônicas</td>
+                                <td>Kamino</td>
+                                <td>Masculino</td>
+                                <td>Altura: 1.83m</td>
+                                <td></td>
+                                <td>Escravo I</td>
+                                <td>Espingarda Blaster, Lança-chamas, Z-6 Jetpack</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_37" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Asajj-Ventress_d5ca9413.jpeg?region=67%2C0%2C1067%2C600&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>ASAJJ VENTRESS</strong></p>
+                        <p class="text-justify">Uma assassina treinada no poder do lado sombrio pelo Conde Dookan, Asajj Ventress anseia ser considerada uma verdadeira Sith, mas tal status não é permitido de acordo com a Regra de Dois dos Sith. Ventress luta com dois sabres de luz vermelhos e trava combate várias vezes com Obi-Wan Kenobi e Anakin Skywalker. Contudo, seu destino não reside com os Sith...</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars The Clone Wars</td>
+                                <td>Sith, Irmãs da Noite</td>
+                                <td>Dathomir</td>
+                                <td>Feminino</td>
+                                <td>Altura: 1.79m</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_38" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Anakin-Skywalker_d3330724.jpeg?region=0%2C0%2C1200%2C675&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>ANAKIN SKYWALKER</strong></p>
+                        <p class="text-justify">Descoberto por Qui-Gon Jinn e Obi-Wan Kenobi quando era escravo em Tatooine, Anakin Skywalker tinha o potencial de se tornar um dos mais poderosos Jedi de todos os tempos. Alguns acreditavam que ele era o Escolhido da profecia, aquele que traria equilíbrio à Força. Herói das Guerras Clônicas, Anakin era gentil e compassivo, mas seu medo de perda acabaria se tornando sua ruína.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas </td>
+                                <td> Ordem Jedi </td>
+                                <td> Tatooine </td>
+                                <td> - </td>
+                                <td> Altura: 1.88m </td>
+                                <td> Caça Estelar Jedi Delta-7 </td>
+                                <td> Sabre de luz, Anakin/Luke's Lightsaber </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_40" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/mr0170_a69c0abe.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>JAKKU</strong></p>
+                        <p class="text-justify">Um mundo de fronteira do deserto, Jakku é a casa de ladrões, bandidos e coletores de lixo.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio VII O Despertar Da Força </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> LUGGABEAST </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_41" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Tatooine_36689d1b.jpeg?region=0%2C0%2C1536%2C864" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>Tatooine</strong></p>
+                        <p class="text-justify">Um inóspito mundo deserto orbitando sóis gêmeos no Anel Externo da galáxia, Tatooine é um lugar sem lei governado por gangsteres Hutt. Muitos colonos ganham a vida nas fazendas de umidade, enquanto as cidades com espaçoportos como Mos Eisley e Mos Espa servem de base para traficantes, criminosos e outros vilões. Os muitos perigos de Tatooine incluem tempestades de areia, bandos de Incursores Tusken Selvagens e dragões Krayt carnívoros. O planeta também é conhecido por suas perigosas Corridas de Pods, jogo desenfreado e escravidão legalizada. Anakin Skywalker e Luke Skywalker cresceram em Tatooine, e Obi-Wan Kenobi passou anos na clandestinidade nesse mundo desolado.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas</td>
+                                <td>Figrin D'an and the Modal Nodes, Incursores Tusken, Pilotos de Pod Clássico de Boonta Eve, Clã Hutt</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Skyhopper T-16, Sandcrawler, Pod de corrida de Anakin Skywalker, Skiff do Deserto </td>
+                                <td>Bastão Gaffi</td>
+                                <td>Evaporador</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_42" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Hoth_d074d307.jpeg?region=0%2C0%2C1200%2C675&width=600" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>HOTH</strong></p>
+                        <p class="text-justify">Hoth é o sexto planeta no distante sistema de mesmo nome e é o local da base Echo da Aliança Rebelde. É um planeta de neve e gelo, rodeado por inúmeras luas, e lar de criaturas mortais como os wampa.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio V O Império Contra-Ataca </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td>GR-75 Medium Transport</td>
+                                <td>Ion Cannon</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_43" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Death-Star-II_b5760154.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>ESTRELA DA MORTE II</strong></p>
+                        <p class="text-justify">Esperando esmagar a Rebelião de uma vez por todas, o Império começa, próximo a Endor, a construção de uma segunda e terrível Estrela da Morte. Porém, o projeto está atrasado. Só a metade da Estrela da Morte II está pronta, e o próprio Imperador a visita para supervisionar sua conclusão.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VI O Retorno de Jedi</td>
+                                <td>Império Galáctico,  Death Star Troopers</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_44" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C0%2C1600%2C900&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>ESTRELA DA MORTE</strong></p>
+                        <p class="text-justify">A Estrela da Morte é a arma definitiva do Império: uma estação espacial do tamanho de uma lua e com capacidade para destruir um planeta inteiro. No entanto, o Imperador e os oficiais imperiais, como o Grande Moff Tarkin, subestimaram a tenacidade da Aliança Rebelde, que não aceita se submeter a esse terror tecnológico...</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio III A Vingança dos Sith </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Death Star Superlaser </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_45" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Coruscant_03db43b4.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>CORUSCANT</strong></p>
+                        <p class="text-justify">O planeta-cidade Coruscant é o coração pulsante e capital da galáxia,
+                            abrigando uma diversidade de cidadãos e culturas. Tem altíssimas torres de edifícios, fluxos de
+                            tráfego aéreo cheios de speeders e níveis internos que se estendem muito abaixo da superfície do planeta.
+                            Coruscant é a sede do governo da República Galáctica e, posteriormente, do Império, e é palco de inúmeros
+                            eventos históricos durante as Guerras Clônicas. O planeta também abriga o Templo Jedi e os Arquivos, onde o aprendizado e
+                            o treinamento Jedi ocorrem por mais de mil gerações — tradições que terminam quando o planeta testemunha a Ordem 66.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Afiliações</th>
+                                <th>Clima</th>
+                                <th>Terreno</th>
+                                <th>Droide</th>
+                                <th>Espécie</th>
+                                <th>Criatura</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio VI O Retorno de Jedi,
+                                    Star Wars: Episódio I A Ameaça Fantasma,
+                                    Star Wars: Episódio II Ataque dos Clones,
+                                    Star Wars: Episódio III A Vingança dos Sith,
+                                    Star Wars: As Guerras Clônicas
+                                </td>
+                                <td> Ordem Jedi, Império Galáctico, Esquadrão D, Guarda do Senado, Guardião do          Templo Jedi, Policial do Submundo de Coruscant, Senado Galáctico, Bear Clan,      Jedi iniciado, Guarda de Coruscant </td>
+                                <td> Artificial, Temperado </td>
+                                <td> Urbano </td>
+                                <td> Droide de Análise da Cena do Crime </td>
+                                <td> Bith, Balosar, Patrolian, Mikkian, Gran </td>
+                                <td> Kouhun </td>
+                                <td> Táxi Aéreo de Coruscant, Cruzador da República, Nave de Combate da Polícia,        Cruzamento, AA-9 Cargueiro de Coruscant </td>
+                                <td>Lança de Sabre de Luz</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_47" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/snowtroopers_kylo_74a1e0be.jpeg?region=13%2C223%2C819%2C461&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>SNOWTROOPERS DA PRIMEIRA ORDEM</strong></p>
+                        <p class="text-justify">A última geração de Stormtroopers de assalto para climas frios, os Snowtroopers vestem uma armadura de isolamento avançada e capacetes que reduzem o brilho do terreno gelado.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Clima</th>
+                                <th>Terreno</th>
+                                <th>Droide</th>
+                                <th>Espécie</th>
+                                <th>Criatura</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Primeira Ordem</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>First Order Snowspeeder</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_48" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/ep7_ia_162325_j_ce453719.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>STORMTROOPERS DA PRIMEIRA ORDEM</strong></p>
+                        <p class="text-justify">Equipados com uma armadura elegante e armas poderosas, os Stormtroopers impõem a vontade da Primeira Ordem.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Primeira Ordem</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>First Order Transporter</td>
+                                <td>Pistola Blaster, Espingarda Blaster</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_49" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Stormtroopers_f36ff76a.jpeg?region=1%2C0%2C1534%2C863&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>STORMTROOPERS</strong></p>
+                        <p class="text-justify">Os Stormtroopers são soldados de elite fanaticamente leais ao Império e sem possibilidade de trair a causa imperial. Eles usam uma imponente armadura branca, que oferece uma ampla gama de equipamentos de sobrevivência e controles de temperatura para permitir que os soldados sobrevivam em praticamente qualquer ambiente. Os stormtroopers utilizam rifles e pistolas blaster com grande habilidade, e atacam em hordas para subjugar seus inimigos. Além dos stormtroopers padrão, o Império organiza várias unidades especializadas, incluindo snowtroopers e batedores imperiais.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi,  Star Wars Rebels </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Altura: 1.83m (average) </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Pistola Blaster, Espingarda Blaster </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_51" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Rebel-Alliance_96d56058.jpeg?region=0%2C0%2C1536%2C864&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong> ALIANÇA REBELDE </strong></p>
+                        <p class="text-justify">A Aliança Rebelde luta bravamente contra o mal do Império Galáctico, sem nunca desanimar apesar de alguns reveses esmagadores. Formada a partir dos movimentos de resistência que surgem durante as Guerras Clônicas, a Rebelião trabalha em segredo por décadas para derrubar o Imperador e restaurar a democracia na galáxia. Com o tempo, armada com o poder de fogo de naves como a X-wing e a A-wing, e a liderança de figuras como a Princesa Leia e o Almirante Ackbar, a Aliança Rebelde triunfa sobre o Império na batalha de Endor.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi</td>
+                                <td>Ordem Jedi, Soldados clones, Esquadrão D, Alto Conselho Gungan, Guarda do Senado, Guarda Real Imperial, Rebeldes de Onderon, Federação de Comércio, Clone Force 99 / Bad Batch, Resistência Twi'lek, Conselho Consultivo Real de Naboo, Grande Exército Gungan, Bear Clan, Jedi iniciado, Guarda de Coruscant, Corporação Real de Soldados Espaciais de Naboo</td>
+                                <td>Hoth,  Mon Cala, Yavin 4, Base Echo</td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td>Snowspeeder, Caça Estelar X-Wing, Millennium Falcon, Caça A-Wing, Cruzador Alderaano, Caça B-Wing, Cruzador Mon Calamari, Caça Estelar Y-Wing, Tantive IV, GR-75 Medium Transport, Home One, Nebulon-B Frigate</td>
+                                <td>Ion Cannon, DL-44 Blaster Pistol, A280 Blaster Rifle</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="st_53" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src=" " class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong> </strong></p>
+                        <p class="text-justify"></p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>SAPARIÇÕES
+Star Wars: Episódio I A Ameaça Fantasma, Star Wars: Episódio II Ataque dos Clones, Star Wars: Episódio III A Vingança dos Sith, Star Wars: As Guerras Clônicas</td>
+                                <td>Ordem Jedi, Soldados clones, Esquadrão D, Alto Conselho Gungan, Guarda do Senado, Guarda Real Imperial, Rebeldes de Onderon, Federação de Comércio, Clone Force 99 / Bad Batch, Resistência Twi'lek, Conselho Consultivo Real de Naboo, Grande Exército Gungan, Bear Clan, Jedi iniciado, Guarda de Coruscant, Corporação Real de Soldados Espaciais de Naboo</td>
+                                <td>Naboo, Alderaan, Aleen, Christophsis, Kamino, Kashyyyk, Malastare, Mon Cala, Ryloth, Saleucami, A Cidadela, Trandosha, Central Detention Center, Devaron</td>
+                                <td> - </td>
+                                <td>
+
+Walker AT-TE, Cruzador Alderaano, Caça estelar ARC-170, Walker AT-RT, Speeder BARC, Freeco Bike, Caça Estelar N-1 de Naboo, Phoenix, Cruzador Bélico Republicano, Nave Bélica Republicana, Transporte Bélico Republicano, Cruzador da República, Fragata da República, Nave de Combate da Polícia, Tugboat da República, Nave Stealth, V-19 Torrent, Caça Estelar Y-Wing, Caça Estelar Z-95 Clone, Caça V-Wing, AV-7 Anti-vehicle Artillery Cannon, AA-9 Cargueiro de Coruscant </td>
+                                <td>Snowspeeder, Caça Estelar X
+VEÍCULOS
+Walker AT-TE, Cruzador Alderaano, Caça estelar ARC-170, Walker AT-RT, Speeder BARC, Freeco Bike, Caça Estelar N-1 de Naboo, Phoenix, Cruzador Bélico Republicano, Nave Bélica Republicana, Transporte Bélico Republicano, Cruzador da República, Fragata da República, Nave de Combate da Polícia, Tugboat da República, Nave Stealth, V-19 Torrent, Caça Estelar Y-Wing, Caça Estelar Z-95 Clone, Caça V-Wing, AV-7 Anti-vehicle Artillery Cannon, AA-9 Cargueiro de CoruscantWing, Millennium Falcon, Caça A-Wing, Cruzador Alderaano, Caça B-Wing, Cruzador Mon Calamari, Caça Estelar Y-Wing, Tantive IV, GR-75 Medium Transport, Home One, Nebulon-B Frigate</td>
+                                <td>Droid Popper, Self-Propelled Heavy Artillery Turbolaser (SPHA-T)</td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_54" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Galactic-Empire_ee15e2e7.jpeg?region=0%2C0%2C1200%2C675&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>IMPÉRIO GALÁCTICO </strong></p>
+                        <p class="text-justify">O Império Galáctico governa por muitos anos usando o medo, a intimidação e a tirania. Com uma poderosa força militar que inclui stormtroopers, tecnologia de espionagem como os droides de sondagem e a destruidora de planetas Estrela da Morte, o regime do Imperador Palpatine parece imbatível e permanente. Mas há quem ouse revidar...</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td></td>
+                                <td></td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="st_57" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/x968_teaserpubstillsdenoised3_16int_95c47825.jpeg?region=119%2C0%2C1165%2C654&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>SPEEDER DA REY</strong></p>
+                        <p class="text-justify">O Império Galáctico governa por muitos anos usando o medo, a intimidação e a tirania. Com uma poderosa força militar que inclui stormtroopers, tecnologia de espionagem como os droides de sondagem e a destruidora de planetas Estrela da Morte, o regime do Imperador Palpatine parece imbatível e permanente. Mas há quem ouse revidar...</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                                <td>Comprimento: 3.73m </td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="st_58" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/pj0010_a0ab2179.jpeg?region=199%2C0%2C1163%2C654&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>NAVE DE COMANDO DE KYLO REN</strong></p>
+                        <p class="text-justify">Com enormes estabilizadores que criam um perfil imponente quando em voo ou pousada, a nave de comando de Kylo Ren é uma visão impressionante.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                                <td> </td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_59" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/x1626imax_tea0050_pub_imax_nomb_16int_0c7c75cc.jpeg?region=0%2C269%2C660%2C371&width=768" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>CAÇA TIE DA PRIMEIRA ORDEM</strong></p>
+                        <p class="text-justify">Seguindo as tradições do Império Galáctico, a Primeira Ordem manteve o design do caça TIE em serviço, mas atualizou a nave com as normas de combate modernas.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Afiliações</th>
+                                <th>Locais</th>
+                                <th>Gênero</th>
+                                <th>Dimensões</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramenta</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio VII O Despertar Da Força</td>
+                                <td>Pilotos de Caça TIE da Primeira Ordem,Primeira Ordem</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Comprimento: 6.69m</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_62" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/TIE-Fighter_25397c64.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>CAÇA TIE</strong></p>
+                        <p class="text-justify">O caça TIE é o símbolo inesquecível da frota imperial. Transportados a bordo de Star Destroyers e estações de batalha, os caças TIE eram conduzidos por um piloto e foram projetados para combates rápidos com os X-wings dos rebeldes e outros caças estelares. O icônico caça TIE levou a outros modelos na família TIE, incluindo o interceptor TIE, em forma de punhal, e o bombardeiro TIE carregado de explosivos. O ruído aterrorizante dos motores de um TIE amedrontam os corações de todos os inimigos do Império.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio IV Uma Nova Esperança,  Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Comprimento: 8.99m </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="st_63" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Millennium-Falcon_018ea796.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>MILLENNIUM FALCON</strong></p>
+                        <p class="text-justify">Uma espaçonave lendária, apesar de suas origens humildes e exterior desgastado, a Millennium Falcon desempenha um papel importante em algumas das maiores vitórias da Aliança Rebelde sobre o Império. Na superfície, a Falcon parece um calhambeque surrado. Sob seu casco, no entanto, ela guarda muitos segredos poderosos. Seus donos fizeram "modificações especiais" no cargueiro com o passar dos anos, aumentando sua velocidade, escudo e desempenho para níveis impressionantes e absolutamente ilegais. A Falcon paga um preço alto por esses truques e melhorias. Ela pode ser imprevisível e seu hiperpropulsor recondicionado falha com frequência. Seu Capitão atual, Han Solo, até já foi visto reiniciando um motor de partida com defeito dando um soco em um anteparo.</p>
+                    </div>
+
+                    <!--Força um espaço entre a imagem e a tabela-->
+                    <div class="help-block"></div>
+
+                    <!--Tabela com as informações secundárias -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>Aparições</th>
+                                    <th>Afiliações</th>
+                                    <th>Locais</th>
+                                    <th>Gênero</th>
+                                    <th>Dimensões</th>
+                                    <th>Veículos</th>
+                                    <th>Armas</th>
+                                    <th>Ferramenta</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca, Star Wars: Episódio VI O Retorno de Jedi, Star Wars: Episódio III A Vingança dos Sith  </td>
+                                    <td>Aliança Rebelde</td>
+                                    <td>Corellia</td>
+                                    <td> - </td>
+                                    <td>Comprimento: 34.75m</td>
+                                    <td> - </td>
+                                    <td> - </td>
+                                    <td> - </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_64" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/Star-Destroyer_ab6b94bb.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>STAR DESTROYER IMPERIAL</strong></p>
+                        <p class="text-justify">O Star Destroyer Imperial é uma nave capital vibrante equipada com armas. Turbolasers e projetores de raio de tração ocupam sua superfície. Seu hangar pode lançar caças TIE, naves de embarque, unidades de assalto terrestre, sondas hiperespaciais ou ser usado para prender naves capturadas. Sua ponte movimentada é frequentada pelos melhores tripulantes da Frota Imperial. O Star Destroyer é reconhecido como a nave característica da frota Imperial. Sua presença em um sistema marca assuntos de extrema importância Imperial. No entanto, como é típico do Império, nem mesmo o Star Destroyer é suficiente para saciar a fome Imperial por demonstrações de poder. Naves maiores, como a Super Star Destroyer, parecem anões perto desses gigantes.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aprarições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td> Star Wars: Episódio IV Uma Nova Esperança, Star Wars: Episódio V O Império Contra-Ataca,  Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> Comprimento: 1600.0m </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                                <td> - </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="st_65" class="row">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <!--Título e Descrição-->
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="http://img.lum.dolimg.com/v1/images/AT-AT_89d0105f.jpeg" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p><strong>WALKER AT­-AT (Transporte Blindado para Todo Terreno) </strong></p>
+                        <p class="text-justify">O Transporte Blindado para Todo Terreno, ou walker AT-AT, é um veículo de transporte e combate dotado de quatro pernas, usado pelas forças terrestres do Império. Com mais de 20 metros de altura e blindagem à prova de blaster, estas máquinas possantes são usadas não apenas para efeito tático, mas também para efeito psicológico.</p>
+                    </div>
+                </div>
+
+                <!--Força um espaço entre a imagem e a tabela-->
+                <div class="help-block"></div>
+
+                <!--Tabela com as informações secundárias -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>Aparições</th>
+                                <th>Locais</th>
+                                <th>Genero</th>
+                                <th>Dimensões</th>
+                                <th>Especie</th>
+                                <th>Veículos</th>
+                                <th>Armas</th>
+                                <th>Ferramentas</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Star Wars: Episódio V O Império Contra-Ataca,  Star Wars: Episódio VI O Retorno de Jedi, Star Wars Rebels</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Altura: 22.5m</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- FIM DA DIV CONTAINER -->
+</body>
 </html>
